@@ -1,0 +1,5 @@
+adb devices
+scrcpy --turn-screen-off
+scrcpy -S   # short version %*
+:: if the exit code is >= 1, then pause
+if errorlevel 1 pause
